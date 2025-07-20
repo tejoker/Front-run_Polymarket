@@ -1,5 +1,5 @@
 {
-  "export_date": "2025-07-21T00:05:19.529709",
+  "export_date": "2025-07-21T00:37:25.052883",
   "statistics": {
     "economy": 8,
     "crypto": 5,
@@ -17,8 +17,8 @@
       "uma_question_id": "",
       "domain": "sports",
       "resolution_source": null,
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.522493"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.047682"
     },
     {
       "id": "512644",
@@ -28,8 +28,8 @@
       "uma_question_id": "0x2eef1660dff726147edcea90979db633b93121d75a1c95ec122157f6a481c225",
       "domain": "politics",
       "resolution_source": "resolution source will be official information from the Trump administration and U.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.523534"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.048723"
     },
     {
       "id": "512812",
@@ -39,8 +39,8 @@
       "uma_question_id": "0xfbb7159f17c2d4020b341e4b0ca53128e2b4930ee37b41779acae254c95df09c",
       "domain": "politics",
       "resolution_source": "resolution source will be official statements from X and/or Truth Social/Trump Media & Technology Group, however a consensus of credible reporting will also be used.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.523534"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "513304",
@@ -50,8 +50,8 @@
       "uma_question_id": "0x06962adf6676f0b341e2f427731588f2f4ad1484a6642a6e31f96ea6d601bd67",
       "domain": "politics",
       "resolution_source": "resolution source will be the Federal Reserve Bank of St.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.523534"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "513317",
@@ -61,8 +61,8 @@
       "uma_question_id": "0x251f0b4ac4367241286fc5cf008fbb3c27b58c6ad1927088d260afb2b5f5317a",
       "domain": "health",
       "resolution_source": "resolution source for this market will be official information form the WHO, however, a consensus of credible reporting may also be used.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.523534"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "513651",
@@ -72,8 +72,8 @@
       "uma_question_id": "0x8706a88a447e44350197d9c53a20eef483d93d6fa47abafa02dcd8a600bb8f73",
       "domain": "crypto",
       "resolution_source": "resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.523534"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "514374",
@@ -83,8 +83,8 @@
       "uma_question_id": "0x3d685900588d56f7898e1900fdc08f90aafff16ccb326479d37590ea751cfa87",
       "domain": "crypto",
       "resolution_source": "resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "515867",
@@ -94,8 +94,8 @@
       "uma_question_id": "0x65ce77800b857e859a8b003350af10f0741ba954f8745b40e78a5a06ca2e2682",
       "domain": "crypto",
       "resolution_source": "resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "516482",
@@ -105,8 +105,8 @@
       "uma_question_id": "0xcc1f2b8a6355d0b89120e989934cbf62c28650008ef6c468bb9ce858a85d8300",
       "domain": "economy",
       "resolution_source": "resolution source is the Federal Government: Current Expenditures chart maintained by the St.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "516483",
@@ -116,8 +116,8 @@
       "uma_question_id": "0xcc1f2b8a6355d0b89120e989934cbf62c28650008ef6c468bb9ce858a85d8301",
       "domain": "economy",
       "resolution_source": "resolution source is the Federal Government: Current Expenditures chart maintained by the St.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "516484",
@@ -127,8 +127,8 @@
       "uma_question_id": "0xcc1f2b8a6355d0b89120e989934cbf62c28650008ef6c468bb9ce858a85d8302",
       "domain": "economy",
       "resolution_source": "resolution source is the Federal Government: Current Expenditures chart maintained by the St.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "516485",
@@ -138,8 +138,8 @@
       "uma_question_id": "0xcc1f2b8a6355d0b89120e989934cbf62c28650008ef6c468bb9ce858a85d8303",
       "domain": "economy",
       "resolution_source": "resolution source is the Federal Government: Current Expenditures chart maintained by the St.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "516486",
@@ -149,8 +149,8 @@
       "uma_question_id": "0xcc1f2b8a6355d0b89120e989934cbf62c28650008ef6c468bb9ce858a85d8304",
       "domain": "economy",
       "resolution_source": "resolution source is the Federal Government: Current Expenditures chart maintained by the St.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "516487",
@@ -160,8 +160,8 @@
       "uma_question_id": "0xcc1f2b8a6355d0b89120e989934cbf62c28650008ef6c468bb9ce858a85d8305",
       "domain": "economy",
       "resolution_source": "resolution source is the Federal Government: Current Expenditures chart maintained by the St.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049244"
     },
     {
       "id": "516706",
@@ -171,8 +171,8 @@
       "uma_question_id": "0x8428884817cbc26422ec451101fcedfc5995907a8df6e5905bc29cd30d2867e7",
       "domain": "economy",
       "resolution_source": "resolution source for this market will be the official website of the Federal Reserve (https://www.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049763"
     },
     {
       "id": "516710",
@@ -182,8 +182,8 @@
       "uma_question_id": "0xd87778fac13b570524bc8e8056bc235b3d696ecfcbe39afd754daca0741c419b",
       "domain": "crypto",
       "resolution_source": "resolution source will be the official announcements from the NBER and the BEA’s estimate of seasonally adjusted annualized percent change in quarterly US real GDP from previous quarters as released by the Bureau of Economic Analysis (BEA), https://www.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049763"
     },
     {
       "id": "516711",
@@ -193,8 +193,8 @@
       "uma_question_id": "0x71042e31b69702d1f6c0bbde0f8b99fdb484d2065496b9cf6c070222c02128ba",
       "domain": "economy",
       "resolution_source": "resolution source will be official announcements from the Federal Reserve’s website (federalreserve.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049763"
     },
     {
       "id": "516712",
@@ -204,8 +204,8 @@
       "uma_question_id": "0x04557e0ee3f099a2b2103dacb024aa3d3e6d9e24b9fab09ba82d7bc7d8688b30",
       "domain": "other",
       "resolution_source": null,
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049763"
     },
     {
       "id": "516713",
@@ -215,8 +215,8 @@
       "uma_question_id": "0x7c559c0a1d6d93884538979df460a5f617425c47708930284adcbf7ac55c7b0b",
       "domain": "crypto",
       "resolution_source": "resolution source for this market is https://www.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049763"
     },
     {
       "id": "516714",
@@ -226,8 +226,8 @@
       "uma_question_id": "0x7ee62fbc083cc92ea334f8cc99d49fae5fd369cb016959b1024253bc28f8917e",
       "domain": "other",
       "resolution_source": "resolution source for this market will be official information from the US government, however a consensus of credible reporting will also be used.",
-      "created_at": "2025-07-20 22:05:19",
-      "updated_at": "2025-07-21 00:05:19.524053"
+      "created_at": "2025-07-20 22:37:25",
+      "updated_at": "2025-07-21 00:37:25.049763"
     }
   ]
 }
