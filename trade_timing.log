@@ -1,0 +1,6 @@
+2025-07-26 17:32:07,881 - TRADE | BUY | 516482 | reaction=1ms | execution=1175ms | total=1176ms | grade=B | roi_v2=3.0%
+2025-07-26 17:32:07,881 - TRADE | BUY | 516483 | reaction=1ms | execution=1179ms | total=1180ms | grade=B | roi_v2=1.6%
+2025-07-26 17:32:07,881 - TRADE | BUY | 516484 | reaction=1ms | execution=1182ms | total=1183ms | grade=B | roi_v2=0.3%
+2025-07-26 17:32:07,882 - TRADE | BUY | 516485 | reaction=2ms | execution=1186ms | total=1188ms | grade=B | roi_v2=0.0%
+2025-07-26 17:32:07,882 - TRADE | MONITOR | 516486 | reaction=2ms | execution=614ms | total=615ms | grade=A | roi_v2=0.0%
+2025-07-26 17:32:07,882 - TRADE | MONITOR | 516487 | reaction=2ms | execution=617ms | total=619ms | grade=A | roi_v2=0.0%

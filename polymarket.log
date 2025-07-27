@@ -16,3 +16,357 @@
 2025-07-21 00:36:48,948 - INFO - Detected opportunity: Market 516485 - medium confidence - 0.90 relevance
 2025-07-21 00:36:48,948 - INFO - Detected opportunity: Market 516486 - medium confidence - 0.90 relevance
 2025-07-21 00:36:48,948 - INFO - Detected opportunity: Market 516487 - medium confidence - 0.90 relevance
+2025-07-26 16:29:09,754 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,754 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,755 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,755 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,755 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,756 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,756 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,756 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,756 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,756 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,756 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,757 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,757 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,757 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,757 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,757 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,757 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,757 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,757 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:09,757 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.065s
+2025-07-26 16:29:11,512 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.208s | content_length=76821 | found_keywords=[]
+2025-07-26 16:29:11,688 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.175s | content_length=102967 | found_keywords=[]
+2025-07-26 16:29:12,259 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.570s | content_length=53874 | found_keywords=[]
+2025-07-26 16:29:12,471 - INFO - SUCCESS | https://www.nber.org/ | 0.212s | content_length=189159 | found_keywords=[]
+2025-07-26 16:34:25,460 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,461 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,462 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,462 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,462 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,462 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,462 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,462 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,462 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,462 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,463 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.084s
+2025-07-26 16:34:25,674 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.210s | content_length=76821 | found_keywords=[]
+2025-07-26 16:34:25,835 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.160s | content_length=102967 | found_keywords=[]
+2025-07-26 16:34:26,430 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.595s | content_length=53874 | found_keywords=[]
+2025-07-26 16:34:26,651 - INFO - SUCCESS | https://www.nber.org/ | 0.220s | content_length=189159 | found_keywords=[]
+2025-07-26 16:39:26,880 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,880 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,881 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,881 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,882 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,882 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,882 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,882 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,882 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,882 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:26,882 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.128s
+2025-07-26 16:39:27,083 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.201s | content_length=76821 | found_keywords=[]
+2025-07-26 16:39:27,275 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.191s | content_length=102967 | found_keywords=[]
+2025-07-26 16:39:27,886 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.611s | content_length=53874 | found_keywords=[]
+2025-07-26 16:39:28,083 - INFO - SUCCESS | https://www.nber.org/ | 0.196s | content_length=189236 | found_keywords=[]
+2025-07-26 16:43:05,346 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,347 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,347 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,347 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,348 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,349 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,349 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,349 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,349 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:05,349 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.080s
+2025-07-26 16:43:07,241 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.234s | content_length=76778 | found_keywords=[]
+2025-07-26 16:43:07,436 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.194s | content_length=102967 | found_keywords=[]
+2025-07-26 16:43:08,223 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.786s | content_length=53874 | found_keywords=[]
+2025-07-26 16:43:08,417 - INFO - SUCCESS | https://www.nber.org/ | 0.193s | content_length=189236 | found_keywords=[]
+2025-07-26 16:46:25,403 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,403 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,403 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,403 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,403 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,404 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:25,405 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.074s
+2025-07-26 16:46:27,200 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.270s | content_length=76778 | found_keywords=[]
+2025-07-26 16:46:27,399 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.197s | content_length=102967 | found_keywords=[]
+2025-07-26 16:46:27,959 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.560s | content_length=53874 | found_keywords=[]
+2025-07-26 16:46:28,145 - INFO - SUCCESS | https://www.nber.org/ | 0.185s | content_length=189236 | found_keywords=[]
+2025-07-26 16:48:19,725 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,725 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,725 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,725 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,725 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,725 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,726 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,726 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,726 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,726 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,726 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,726 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,726 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,727 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,727 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,727 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,727 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,727 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,727 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:19,727 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.063s
+2025-07-26 16:48:21,688 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.240s | content_length=76821 | found_keywords=[]
+2025-07-26 16:48:21,846 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.158s | content_length=102967 | found_keywords=[]
+2025-07-26 16:48:22,368 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.519s | content_length=53874 | found_keywords=[]
+2025-07-26 16:48:22,556 - INFO - SUCCESS | https://www.nber.org/ | 0.188s | content_length=189236 | found_keywords=[]
+2025-07-26 17:02:43,508 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,508 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,509 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,509 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,509 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,509 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,509 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,509 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,509 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,509 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:43,510 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:02:45,250 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.218s | content_length=76821 | found_keywords=[]
+2025-07-26 17:02:45,440 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.190s | content_length=102967 | found_keywords=[]
+2025-07-26 17:02:45,990 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.549s | content_length=53874 | found_keywords=[]
+2025-07-26 17:02:46,219 - INFO - SUCCESS | https://www.nber.org/ | 0.229s | content_length=189236 | found_keywords=[]
+2025-07-26 17:02:46,221 - INFO - TRADE | BUY | 516482 | reaction=2ms | execution=1175ms | total=1177ms | grade=B | roi_v2=3.0%
+2025-07-26 17:02:46,221 - INFO - TRADE | BUY | 516483 | reaction=2ms | execution=1179ms | total=1180ms | grade=B | roi_v2=1.6%
+2025-07-26 17:02:46,222 - INFO - TRADE | BUY | 516484 | reaction=2ms | execution=1182ms | total=1184ms | grade=B | roi_v2=0.3%
+2025-07-26 17:02:46,222 - INFO - TRADE | BUY | 516485 | reaction=2ms | execution=1186ms | total=1188ms | grade=B | roi_v2=0.0%
+2025-07-26 17:02:46,222 - INFO - TRADE | MONITOR | 516486 | reaction=2ms | execution=614ms | total=616ms | grade=A | roi_v2=0.0%
+2025-07-26 17:02:46,222 - INFO - TRADE | MONITOR | 516487 | reaction=2ms | execution=617ms | total=619ms | grade=A | roi_v2=0.0%
+2025-07-26 17:09:38,059 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,060 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,060 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,060 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,060 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,060 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,060 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,060 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,061 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.087s
+2025-07-26 17:09:38,310 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.249s | content_length=76821 | found_keywords=[]
+2025-07-26 17:09:38,510 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.200s | content_length=102967 | found_keywords=[]
+2025-07-26 17:09:39,068 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.557s | content_length=53874 | found_keywords=[]
+2025-07-26 17:09:39,270 - INFO - SUCCESS | https://www.nber.org/ | 0.201s | content_length=189162 | found_keywords=[]
+2025-07-26 17:14:39,455 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,455 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,455 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,456 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,457 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,457 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,457 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,457 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,457 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,457 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,457 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.090s
+2025-07-26 17:14:39,880 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.422s | content_length=76821 | found_keywords=[]
+2025-07-26 17:14:40,258 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.378s | content_length=102967 | found_keywords=[]
+2025-07-26 17:14:40,944 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.685s | content_length=53874 | found_keywords=[]
+2025-07-26 17:14:41,178 - INFO - SUCCESS | https://www.nber.org/ | 0.234s | content_length=189162 | found_keywords=[]
+2025-07-26 17:19:41,373 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,373 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,374 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,374 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,374 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,374 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,375 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,375 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,375 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,375 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,376 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,377 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,377 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,377 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,386 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,388 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,389 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,390 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,390 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,390 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.077s
+2025-07-26 17:19:41,632 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.241s | content_length=76821 | found_keywords=[]
+2025-07-26 17:19:41,844 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.213s | content_length=102967 | found_keywords=[]
+2025-07-26 17:19:42,392 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.547s | content_length=53874 | found_keywords=[]
+2025-07-26 17:19:42,600 - INFO - SUCCESS | https://www.nber.org/ | 0.207s | content_length=189162 | found_keywords=[]
+2025-07-26 17:24:42,800 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,801 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,801 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,801 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,802 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,802 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,803 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,803 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,803 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,803 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,803 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,804 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,805 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,805 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,805 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,805 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,806 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,811 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,811 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,811 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.088s
+2025-07-26 17:24:42,906 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.090s | content_length=76821 | found_keywords=[]
+2025-07-26 17:24:43,105 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.198s | content_length=102967 | found_keywords=[]
+2025-07-26 17:24:43,676 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.570s | content_length=53874 | found_keywords=[]
+2025-07-26 17:24:43,902 - INFO - SUCCESS | https://www.nber.org/ | 0.226s | content_length=189162 | found_keywords=[]
+2025-07-26 17:29:44,073 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,074 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,074 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,074 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,074 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,075 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,075 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,075 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,075 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,075 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,075 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,075 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,075 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,076 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,076 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,076 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,076 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,076 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,076 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,076 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.069s
+2025-07-26 17:29:44,450 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.373s | content_length=76821 | found_keywords=[]
+2025-07-26 17:29:44,645 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.195s | content_length=102967 | found_keywords=[]
+2025-07-26 17:29:45,228 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.583s | content_length=53874 | found_keywords=[]
+2025-07-26 17:29:45,430 - INFO - SUCCESS | https://www.nber.org/ | 0.201s | content_length=189162 | found_keywords=[]
+2025-07-26 17:30:06,094 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,095 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,095 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,095 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,095 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,095 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:06,096 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.059s
+2025-07-26 17:30:07,683 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.071s | content_length=76821 | found_keywords=[('budget', 'affirmed')]
+2025-07-26 17:30:07,851 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.168s | content_length=102967 | found_keywords=[('federal reserve', 'affirmed'), ('interest rate', 'affirmed'), ('monetary policy', 'affirmed')]
+2025-07-26 17:30:08,427 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.576s | content_length=53874 | found_keywords=[('gdp', 'affirmed'), ('gross domestic product', 'affirmed'), ('quarterly', 'affirmed'), ('annual', 'affirmed')]
+2025-07-26 17:30:08,660 - INFO - SUCCESS | https://www.nber.org/ | 0.232s | content_length=189162 | found_keywords=[('business cycle', 'affirmed'), ('nber', 'affirmed')]
+2025-07-26 17:30:08,662 - INFO - TRADE | BUY | 516482 | reaction=2ms | execution=1175ms | total=1177ms | grade=B | roi_v2=3.0%
+2025-07-26 17:30:08,662 - INFO - TRADE | BUY | 516483 | reaction=2ms | execution=1179ms | total=1180ms | grade=B | roi_v2=1.6%
+2025-07-26 17:30:08,663 - INFO - TRADE | BUY | 516484 | reaction=2ms | execution=1182ms | total=1184ms | grade=B | roi_v2=0.3%
+2025-07-26 17:30:08,663 - INFO - TRADE | BUY | 516485 | reaction=2ms | execution=1186ms | total=1188ms | grade=B | roi_v2=0.0%
+2025-07-26 17:30:08,663 - INFO - TRADE | MONITOR | 516486 | reaction=2ms | execution=614ms | total=615ms | grade=A | roi_v2=0.0%
+2025-07-26 17:30:08,663 - INFO - TRADE | MONITOR | 516487 | reaction=2ms | execution=617ms | total=619ms | grade=A | roi_v2=0.0%
+2025-07-26 17:32:05,219 - INFO - 502517 | ARCH Will the match be a draw? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,219 - INFO - 512644 | Will Trump repeal Presidential term limi | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,219 - INFO - 512812 | X and Truth Social merger announced befo | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,219 - INFO - 513304 | Will Trump impose large tariffs in his f | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 513317 | Bird flu pandemic before August 2025? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 513651 | Doge ETF approved by July 31? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 514374 | Ripple ETF approved by July 31? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 515867 | Litecoin ETF approved by July 31? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 516482 | Will federal spending decrease by less t | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 516483 | Will federal spending decrease by $250-5 | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 516484 | Will federal spending decrease by $500-7 | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 516485 | Will federal spending decrease by $750b- | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 516486 | Will federal spending decrease by $1-2t  | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,220 - INFO - 516487 | Will federal spending decrease by more t | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,221 - INFO - 516706 | Fed rate hike in 2025? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,221 - INFO - 516710 | US recession in 2025? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,221 - INFO - 516711 | Fed emergency rate cut in 2025? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,221 - INFO - 516712 | Tether insolvent in 2025? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,221 - INFO - 516713 | USDT depeg in 2025? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:05,221 - INFO - 516714 | Weed rescheduled in 2025? | prob=None | fetch_duration=0.060s
+2025-07-26 17:32:06,905 - INFO - SUCCESS | https://fred.stlouisfed.org/series/FGEXPND | 0.243s | content_length=76821 | found_keywords=[('budget', 'affirmed')]
+2025-07-26 17:32:07,080 - INFO - SUCCESS | https://www.federalreserve.gov/monetarypolicy/openmarket.htm | 0.174s | content_length=102967 | found_keywords=[('federal reserve', 'affirmed'), ('interest rate', 'affirmed'), ('monetary policy', 'affirmed')]
+2025-07-26 17:32:07,643 - INFO - SUCCESS | https://www.bea.gov/data/gdp/gross-domestic-product | 0.563s | content_length=53874 | found_keywords=[('gdp', 'affirmed'), ('gross domestic product', 'affirmed'), ('quarterly', 'affirmed'), ('annual', 'affirmed')]
+2025-07-26 17:32:07,879 - INFO - SUCCESS | https://www.nber.org/ | 0.236s | content_length=189162 | found_keywords=[('business cycle', 'affirmed'), ('nber', 'affirmed')]
+2025-07-26 17:32:07,881 - INFO - TRADE | BUY | 516482 | reaction=1ms | execution=1175ms | total=1176ms | grade=B | roi_v2=3.0%
+2025-07-26 17:32:07,881 - INFO - TRADE | BUY | 516483 | reaction=1ms | execution=1179ms | total=1180ms | grade=B | roi_v2=1.6%
+2025-07-26 17:32:07,881 - INFO - TRADE | BUY | 516484 | reaction=1ms | execution=1182ms | total=1183ms | grade=B | roi_v2=0.3%
+2025-07-26 17:32:07,882 - INFO - TRADE | BUY | 516485 | reaction=2ms | execution=1186ms | total=1188ms | grade=B | roi_v2=0.0%
+2025-07-26 17:32:07,882 - INFO - TRADE | MONITOR | 516486 | reaction=2ms | execution=614ms | total=615ms | grade=A | roi_v2=0.0%
+2025-07-26 17:32:07,882 - INFO - TRADE | MONITOR | 516487 | reaction=2ms | execution=617ms | total=619ms | grade=A | roi_v2=0.0%
