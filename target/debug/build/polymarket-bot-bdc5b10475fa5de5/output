@@ -1,0 +1,5 @@
+cargo:rerun-if-changed=src/polymarket_core.cpp
+cargo:rustc-link-search=native=/Users/armand/RoadtoQuantDev-Trader/target/debug/build/polymarket-bot-bdc5b10475fa5de5/out
+cargo:rustc-link-lib=dylib=polymarket_core
+cargo:rustc-link-lib=dylib=curl
+cargo:rustc-link-lib=dylib=sqlite3
