@@ -14,10 +14,11 @@
 #include <curl/curl.h>
 #include <sqlite3.h>
 
-// Global ROI parameters
-double GLOBAL_FEE = 0.015; // 1.5% fees (realistic for Polymarket)
-double GLOBAL_CATCHUP_SPEED = 0.01; // 1% per second (realistic)
-double GLOBAL_ACTION_TIME = 0.005; // 5ms (realistic for HFT)
+// Global ROI parameters - OPTIMIZED FOR HFT LATENCY
+double GLOBAL_FEE = 0.03; // 3% fees on profit (Polymarket standard)
+double GLOBAL_CATCHUP_SPEED = 0.8; // 80% per second (optimized for speed)
+double GLOBAL_ACTION_TIME = 0.025; // 25ms (optimized HFT latency)
+double GLOBAL_FIXED_COST = 0.0005; // Reduced fixed costs for HFT
 
 // HFT optimizations - ROI cache to avoid recalculations
 std::map<std::string, double> roi_cache;
@@ -343,34 +344,59 @@ SourceData monitor_resolution_source(FastHTTPClient& client, const string& url, 
     return data;
 }
 
-// Realistic ROI calculation for Polymarket binary markets
+// FORMULE ROI PROFESSIONNELLE POLYMARKET (frais 3% sur le profit uniquement)
 double calculate_real_roi(double current_price, double fee, double catchup_speed, double action_time) {
-    // Calculate spent price
-    double price_adjustment = catchup_speed * action_time;
-    double spent_price = current_price + price_adjustment;
+    // Use global parameters for consistency
+    fee = GLOBAL_FEE;           // 3% fees on profit
+    catchup_speed = GLOBAL_CATCHUP_SPEED;
+    action_time = GLOBAL_ACTION_TIME;
+    double g = GLOBAL_FIXED_COST; // Fixed costs per share
     
-    // Limit spent price to realistic values
-    if (spent_price > 0.95) spent_price = 0.95;
-    if (spent_price < 0.05) spent_price = 0.05;
+    // LOGIQUE MARCHÉ BINAIRE: Décider si on parie "OUI" ou "NON"
+    bool bet_on_yes = current_price < 0.5; // Si prix < 50%, on parie "OUI"
     
-    // Realistic formula: ROI = (expected_final_price - spent_price - fees) / spent_price
-    // Calculate expected final price based on information and catchup speed
-    double expected_price_adjustment = catchup_speed * action_time * 0.5; // 50% of max adjustment
-    double expected_final_price = current_price + expected_price_adjustment;
+    // Calcul du prix d'achat effectif (avec spread/slippage)
+    double p;
+    if (bet_on_yes) {
+        // Parie "OUI": prix d'achat = prix_actuel + (vitesse_rattrapage × temps_action)
+        p = current_price + (catchup_speed * action_time);
+    } else {
+        // Parie "NON": prix d'achat = (1 - prix_actuel) + (vitesse_rattrapage × temps_action)
+        p = (1.0 - current_price) + (catchup_speed * action_time);
+    }
     
-    // Limit final price to realistic values
-    if (expected_final_price > 0.95) expected_final_price = 0.95;
-    if (expected_final_price < 0.05) expected_final_price = 0.05;
+    // Limiter prix d'achat à des valeurs réalistes
+    if (p > 0.95) p = 0.95;
+    if (p < 0.05) p = 0.05;
     
-    // Realistic ROI = (expected_final_price - spent_price - fees) / spent_price
-    double roi = (expected_final_price - spent_price - fee) / spent_price;
+    // π = proba subjective que l'événement soit YES
+    double pi_yes = 0.55;  // 55% de confiance (réaliste pour du trading quotidien)
     
-    // Display details for each trade
-    cout << "[ROI CALC] Current price: " << (current_price * 100) << "%, ";
-    cout << "Catchup speed: " << (catchup_speed * 100) << "%/s, ";
-    cout << "Action time: " << (action_time * 1000) << "ms, ";
-    cout << "Spent price: " << (spent_price * 100) << "%, ";
-    cout << "Expected final price: " << (expected_final_price * 100) << "%, ";
+    double expected_profit;
+    double pi_star; // seuil break-even exprimé en proba YES
+    
+    if (bet_on_yes) {
+        // Prix p = prix du YES
+        // ROI_yes = [π*(1-p)*(1-f) - (1-π)*p - g] / (p+g)
+        expected_profit = pi_yes * (1.0 - p) * (1.0 - fee)
+                        - (1.0 - pi_yes) * p - g;
+        pi_star = (p + g) / (p + (1.0 - p) * (1.0 - fee));              // seuil YES
+    } else {
+        // Prix p = prix du NO
+        // ROI_no = [(1-π)*(1-p)*(1-f) - π*p - g] / (p+g)
+        expected_profit = (1.0 - pi_yes) * (1.0 - p) * (1.0 - fee)
+                        - pi_yes * p - g;
+        pi_star = 1.0 - (p + g) / (p + (1.0 - p) * (1.0 - fee));        // seuil YES
+    }
+    
+    double roi = expected_profit / (p + g);
+    
+    // Affichage : pi_star est en proba YES
+    cout << "[ROI PRO] Current: " << (current_price * 100) << "%, ";
+    cout << "Bet: " << (bet_on_yes ? "YES" : "NO") << ", ";
+    cout << "Buy price (p): " << fixed << setprecision(2) << (p * 100) << "%, ";
+    cout << "Confidence (π): " << (pi_yes * 100) << "%, ";
+    cout << "Break-even (π*): " << (pi_star * 100) << "%, ";
     cout << "ROI: " << (roi * 100) << "%" << endl;
     
     return roi;
@@ -604,8 +630,8 @@ extern "C" {
             }
         }
         
-        // Cache miss - calcul rapide
-        double roi = calculate_real_roi(current_price, fee, catchup_speed, action_time);
+            // Cache miss - calcul rapide avec paramètres FORCÉS pour test
+    double roi = calculate_real_roi(current_price, GLOBAL_FEE, GLOBAL_CATCHUP_SPEED, GLOBAL_ACTION_TIME);
         
         // Mise en cache avec gestion de la taille
         {
@@ -619,27 +645,28 @@ extern "C" {
         return roi;
     }
     
-    // Décision de trading ultra-rapide (latence < 100ns)
+    // Décision de trading ultra-rapide (latence < 100ns) - OPTIMISÉE HFT
     const char* make_trading_decision_hft(double roi, double confidence) {
         // Lookup table pour décisions instantanées
         static const char* decisions[] = {"MONITOR", "BUY", "SELL"};
         
-        if (roi > 0.05 && confidence > 0.7) return decisions[1]; // BUY
-        if (roi > 0.03 && confidence > 0.5) return decisions[2]; // SELL
+        // Seuils optimisés pour HFT - plus agressifs
+        if (roi > 0.03 && confidence > 0.6) return decisions[1]; // BUY (seuil baissé)
+        if (roi > 0.02 && confidence > 0.45) return decisions[2]; // SELL (seuil baissé)
         return decisions[0]; // MONITOR
     }
     
-    // Calcul de position size ultra-rapide (latence < 50ns)
+    // Calcul de position size ultra-rapide (latence < 50ns) - OPTIMISÉE HFT
     double calculate_position_size_hft(double capital, double roi, const char* confidence) {
-        // Lookup table précalculée pour positions
-        static double position_multipliers[] = {0.005, 0.01, 0.02, 0.03, 0.05};
+        // Lookup table précalculée pour positions - plus agressive
+        static double position_multipliers[] = {0.008, 0.015, 0.025, 0.04, 0.06};
         
         int index = 0;
-        if (roi > 0.10) index = 4;      // 5% du capital
-        else if (roi > 0.07) index = 3; // 3% du capital
-        else if (roi > 0.05) index = 2; // 2% du capital
-        else if (roi > 0.03) index = 1; // 1% du capital
-        else index = 0;                 // 0.5% du capital
+        if (roi > 0.08) index = 4;      // 6% du capital (seuil baissé)
+        else if (roi > 0.05) index = 3; // 4% du capital (seuil baissé)
+        else if (roi > 0.03) index = 2; // 2.5% du capital (seuil baissé)
+        else if (roi > 0.02) index = 1; // 1.5% du capital (seuil baissé)
+        else index = 0;                 // 0.8% du capital (augmenté)
         
         return capital * position_multipliers[index];
     }
