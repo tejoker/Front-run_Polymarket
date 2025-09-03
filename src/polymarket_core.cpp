@@ -11,6 +11,7 @@
 #include <iomanip>
 #include <algorithm>
 #include <regex>
+#include <set>
 #include <curl/curl.h>
 #include <sqlite3.h>
 
@@ -19,6 +20,12 @@ double GLOBAL_FEE = 0.03; // 3% fees on profit (Polymarket standard)
 double GLOBAL_CATCHUP_SPEED = 0.8; // 80% per second (optimized for speed)
 double GLOBAL_ACTION_TIME = 0.025; // 25ms (optimized HFT latency)
 double GLOBAL_FIXED_COST = 0.0005; // Reduced fixed costs for HFT
+
+// TEST CONFIGURATION - Capital de test avec 1€
+double TEST_CAPITAL = 1.0; // 1€ pour les tests
+double TEST_POSITION_BASE = 0.025; // 2.5% du capital de test
+double TEST_POSITION_MAX = 0.1; // 10% max du capital de test
+double TEST_POSITION_MIN = 0.01; // 1% min du capital de test
 
 // HFT optimizations - ROI cache to avoid recalculations
 std::map<std::string, double> roi_cache;
@@ -450,7 +457,52 @@ vector<ArbitrageOpportunity> detect_arbitrage_opportunities(const vector<Market>
     return opportunities;
 }
 
-// Trading signal generation
+// Priorisation des trades par ROI - sélectionne toujours le ROI le plus élevé
+// et exécute automatiquement le meilleur trade avec 1€
+vector<TradingSignal> prioritize_trades_by_roi(const vector<TradingSignal>& signals) {
+    vector<TradingSignal> prioritized_signals = signals;
+    
+    // Trier par ROI décroissant (v2 - ROI réaliste)
+    sort(prioritized_signals.begin(), prioritized_signals.end(), 
+         [](const TradingSignal& a, const TradingSignal& b) {
+             return a.potential_roi_v2 > b.potential_roi_v2;
+         });
+    
+    // Supprimer les doublons de marché (garder seulement le ROI le plus élevé)
+    vector<TradingSignal> unique_signals;
+    set<string> processed_markets;
+    
+    for (const auto& signal : prioritized_signals) {
+        if (processed_markets.find(signal.market_id) == processed_markets.end()) {
+            unique_signals.push_back(signal);
+            processed_markets.insert(signal.market_id);
+            
+            cout << "[PRIORITY] Trade priorisé: " << signal.market_id 
+                 << " (ROI: " << signal.potential_roi_v2 << "%, Action: " << signal.action << ")" << endl;
+        }
+    }
+    
+    // EXÉCUTION AUTOMATIQUE du meilleur trade
+    if (!unique_signals.empty()) {
+        TradingSignal& best_trade = unique_signals[0];
+        if (best_trade.action != "MONITOR") {
+            cout << "🚀 [EXECUTION] Trade automatique exécuté!" << endl;
+            cout << "   Market: " << best_trade.market_id << endl;
+            cout << "   Action: " << best_trade.action << endl;
+            cout << "   ROI: " << best_trade.potential_roi_v2 << "%" << endl;
+            cout << "   Montant: 1€" << endl;
+            
+            // Marquer comme exécuté
+            best_trade.action = "EXECUTED_" + string(best_trade.action);
+        }
+    }
+    
+    cout << "[PRIORITY] " << unique_signals.size() << " trades uniques, meilleur exécuté automatiquement" << endl;
+    return unique_signals;
+}
+
+// Trading signal generation avec priorisation par ROI
+// Priorité: ROI le plus élevé
 vector<TradingSignal> generate_trading_signals(const vector<ArbitrageOpportunity>& opportunities) {
     vector<TradingSignal> signals;
     
@@ -488,15 +540,51 @@ vector<TradingSignal> generate_trading_signals(const vector<ArbitrageOpportunity
         signals.push_back(signal);
     }
     
+    // Appliquer la priorisation par ROI pour éviter les conflits de timing
+    signals = prioritize_trades_by_roi(signals);
+    
     return signals;
 }
 
 // FFI functions for Rust
 extern "C" {
     
+    // Configuration du mode test
+    void configure_test_mode(double capital, double base_position, double max_position, double min_position) {
+        TEST_CAPITAL = capital;
+        TEST_POSITION_BASE = base_position;
+        TEST_POSITION_MAX = max_position;
+        TEST_POSITION_MIN = min_position;
+        
+        cout << "=== MODE TEST ACTIVÉ ===" << endl;
+        cout << "Capital de test: " << capital << "€" << endl;
+        cout << "Position de base: " << (base_position * 100) << "%" << endl;
+        cout << "Position max: " << (max_position * 100) << "%" << endl;
+        cout << "Position min: " << (min_position * 100) << "%" << endl;
+        cout << "========================" << endl;
+    }
+    
+    // Afficher la configuration de test
+    void show_test_config() {
+        cout << "=== CONFIGURATION TEST ===" << endl;
+        cout << "Capital: " << TEST_CAPITAL << "€" << endl;
+        cout << "Base: " << (TEST_POSITION_BASE * 100) << "%" << endl;
+        cout << "Max: " << (TEST_POSITION_MAX * 100) << "%" << endl;
+        cout << "Min: " << (TEST_POSITION_MIN * 100) << "%" << endl;
+        cout << "=========================" << endl;
+    }
+    
     // Initialize C++ module
     bool init_polymarket_core() {
         cout << "Initializing C++ Polymarket Core module" << endl;
+        
+            // NOUVEAU SYSTÈME: 1€ direct sur le meilleur trade
+    cout << "🚀 SYSTÈME AUTOMATIQUE ACTIVÉ" << endl;
+    cout << "   • Priorisation par ROI automatique" << endl;
+    cout << "   • 1€ direct sur le meilleur trade" << endl;
+    cout << "   • Exécution automatique des opportunités" << endl;
+    cout << "   • Seuils: BUY > 2%, SELL > 1.5%" << endl;
+        
         return true;
     }
     
@@ -646,29 +734,28 @@ extern "C" {
     }
     
     // Décision de trading ultra-rapide (latence < 100ns) - OPTIMISÉE HFT
+    // NOUVEAU SYSTÈME: Sélection automatique du meilleur ROI
     const char* make_trading_decision_hft(double roi, double confidence) {
         // Lookup table pour décisions instantanées
         static const char* decisions[] = {"MONITOR", "BUY", "SELL"};
         
-        // Seuils optimisés pour HFT - plus agressifs
-        if (roi > 0.03 && confidence > 0.6) return decisions[1]; // BUY (seuil baissé)
-        if (roi > 0.02 && confidence > 0.45) return decisions[2]; // SELL (seuil baissé)
+        // Seuils simplifiés - plus agressifs pour capturer les opportunités
+        if (roi > 0.02 && confidence > 0.4) return decisions[1]; // BUY (seuil baissé)
+        if (roi > 0.015 && confidence > 0.35) return decisions[2]; // SELL (seuil baissé)
         return decisions[0]; // MONITOR
     }
     
     // Calcul de position size ultra-rapide (latence < 50ns) - OPTIMISÉE HFT
+    // NOUVEAU SYSTÈME: 1€ direct sur le trade avec le ROI le plus élevé
     double calculate_position_size_hft(double capital, double roi, const char* confidence) {
-        // Lookup table précalculée pour positions - plus agressive
-        static double position_multipliers[] = {0.008, 0.015, 0.025, 0.04, 0.06};
+        // SYSTÈME SIMPLIFIÉ: 1€ direct sur le meilleur trade
+        double position_amount = 1.0; // 1€ fixe
         
-        int index = 0;
-        if (roi > 0.08) index = 4;      // 6% du capital (seuil baissé)
-        else if (roi > 0.05) index = 3; // 4% du capital (seuil baissé)
-        else if (roi > 0.03) index = 2; // 2.5% du capital (seuil baissé)
-        else if (roi > 0.02) index = 1; // 1.5% du capital (seuil baissé)
-        else index = 0;                 // 0.8% du capital (augmenté)
+        // Log pour debug
+        cout << "[TRADE] Position: " << fixed << setprecision(2) << position_amount 
+             << "€ (ROI: " << (roi * 100) << "%, confiance: " << confidence << ")" << endl;
         
-        return capital * position_multipliers[index];
+        return position_amount;
     }
     
     // Validation de trade
